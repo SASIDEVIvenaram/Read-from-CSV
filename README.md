@@ -23,13 +23,14 @@ End the program.
 #Program to read data from csv file.
 #Devloped By: SASIDEVI.V
 #Ref no:22008940
-
+```
 import pandas as pd
 df = pd.read_csv("nba.csv")
 print(df.head(10))
 print(df.tail())
 print("column", len(df.axes[0]))
 print("rows", len(df.axes[1]))
+```
 
 ## OUTPUT:
 ![](/out.png)
