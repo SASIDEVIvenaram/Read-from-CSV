@@ -20,9 +20,11 @@ Read the contents of the CSV file using df.read function.
 End the program.
 
 ## PROGRAM:
+```
 #Program to read data from csv file.
 #Devloped By: SASIDEVI.V
 #Ref no:22008940
+```
 ```
 import pandas as pd
 df = pd.read_csv("nba.csv")
